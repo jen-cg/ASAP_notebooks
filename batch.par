@@ -1,0 +1,32 @@
+synth
+terminal       x11
+plot           3
+damping        0
+trudamp        0
+strong         0
+standard_out   'scratch'
+summary_out  '/arc5/home/jglover/ASAP/HD222925Blue.out'
+smoothed_out   '/arc5/home/jglover/ASAP/HD222925Blue.sout' 
+observed_in    '/arc5/home/jglover/ASAP/HD222925Blue_trimmed.xy' 
+model_in       '/arc5/home/jglover/ASAP/HD222925Blue.mmod' 
+lines_in       'single_line.txt' 
+stronglines_in 'stronglines.txt'
+atmosphere     0
+molecules      1
+lines          1
+deviations     0
+flux/int       1
+isotopes    4   1 
+  607.01214   1.25   1.25   1.25   1.25   1.25
+  607.01314   5   5   5   5   5
+  106.00112   1.25   1.25   1.25   1.25   1.25 
+  106.00113   5   5   5   5   5  
+obspectrum     5
+synlimits
+  4990.0  5010.0  0.01  1.0 
+plotpars       1
+  4990.0  5010.0  0.01  1.0 
+  0.0  0.0  0.0  1.0 
+  g  0.17  0.0  0.0  0.0  0.0 
+abundances     1  1 
+  22  0.75 
